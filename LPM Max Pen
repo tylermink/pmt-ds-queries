@@ -1,0 +1,325 @@
+CREATE TEMP TABLE lpm_lkp(
+  Bin_Number string
+  ,Gateway string
+  ,Gateway_Clean string
+  ,Country string
+  ,Region string
+  ,RegionD string
+)
+;
+
+INSERT INTO lpm_lkp (Bin_Number, Gateway, Gateway_Clean, Country, Region, RegionD) VALUES
+
+('440393',NULL,'CashApp','United States',NULL,NULL),
+(NULL, 'Clearpay Staging', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'PAY. Payment Methods AfterPay', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments (US-Sandbox)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments AU', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments NZ', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments Replatform DEV', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments (CA)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Oceanpayment - Afterpay', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip - SG', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments (UK)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments (MX)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Oceanpayment - Clearpay', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Afterpay Payments - Chris', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments (MX-Sandbox)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip - SG (Development)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Afterpay', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments NZ - Sandbox', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments (UK-Sandbox)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'AfterPay', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Afterpay and Clearpay', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Afterpay Payments - Staging', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments NZ - Dev', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments (CA-Sandbox)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'HiTRUSTpay X AfterPay', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Zip Payments (US)', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+(NULL, 'Clearpay', 'Zip/Afterpay/Clearpay', 'Australia', NULL,NULL),
+
+(NULL, 'Clearpay Staging', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'PAY. Payment Methods AfterPay', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments (US-Sandbox)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments AU', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments NZ', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments Replatform DEV', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments (CA)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Oceanpayment - Afterpay', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip - SG', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments (UK)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments (MX)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Oceanpayment - Clearpay', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Afterpay Payments - Chris', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments (MX-Sandbox)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip - SG (Development)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Afterpay', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments NZ - Sandbox', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments (UK-Sandbox)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'AfterPay', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Afterpay and Clearpay', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Afterpay Payments - Staging', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments NZ - Dev', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments (CA-Sandbox)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'HiTRUSTpay X AfterPay', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Zip Payments (US)', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+(NULL, 'Clearpay', 'Zip/Afterpay/Clearpay', 'New Zealand', NULL,NULL),
+
+
+(NULL, 'Klarna - Dev', 'Klarna', NULL, 'EMEA',NULL),
+(NULL, 'Klarna Pay Later', 'Klarna', NULL, 'EMEA',NULL),
+(NULL, 'klarna - UseePay', 'Klarna', NULL, 'EMEA',NULL),
+(NULL, 'Mollie - Klarna Pay Later', 'Klarna', NULL, 'EMEA',NULL),
+(NULL, 'PAY. Payment Methods Klarna', 'Klarna', NULL, 'EMEA',NULL),
+(NULL, 'Klarna Payments', 'Klarna', NULL, 'EMEA',NULL),
+(NULL, 'Mollie - Klarna Pay Now', 'Klarna', NULL, 'EMEA',NULL),
+(NULL, 'KlarnaTestSaje-PI4027', 'Klarna', NULL, 'EMEA',NULL),
+(NULL, 'awx-klarna-prod', 'Klarna', NULL, 'EMEA',NULL),
+
+(NULL, 'Klarna - Dev', 'Klarna', 'United Kingdom', NULL,NULL), --Expansion of Klarna analysis to multiple countries
+(NULL, 'Klarna Pay Later', 'Klarna', 'United Kingdom', NULL,NULL),
+(NULL, 'klarna - UseePay', 'Klarna', 'United Kingdom', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Later', 'Klarna', 'United Kingdom', NULL,NULL),
+(NULL, 'PAY. Payment Methods Klarna', 'Klarna', 'United Kingdom', NULL,NULL),
+(NULL, 'Klarna Payments', 'Klarna', 'United Kingdom', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Now', 'Klarna', 'United Kingdom', NULL,NULL),
+(NULL, 'KlarnaTestSaje-PI4027', 'Klarna', 'United Kingdom', NULL,NULL),
+(NULL, 'awx-klarna-prod', 'Klarna', 'United Kingdom', NULL,NULL),
+
+(NULL, 'Klarna - Dev', 'Klarna', 'Netherlands', NULL,NULL),
+(NULL, 'Klarna Pay Later', 'Klarna', 'Netherlands', NULL,NULL),
+(NULL, 'klarna - UseePay', 'Klarna', 'Netherlands', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Later', 'Klarna', 'Netherlands', NULL,NULL),
+(NULL, 'PAY. Payment Methods Klarna', 'Klarna', 'Netherlands', NULL,NULL),
+(NULL, 'Klarna Payments', 'Klarna', 'Netherlands', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Now', 'Klarna', 'Netherlands', NULL,NULL),
+(NULL, 'KlarnaTestSaje-PI4027', 'Klarna', 'Netherlands', NULL,NULL),
+(NULL, 'awx-klarna-prod', 'Klarna', 'Netherlands', NULL,NULL),
+
+(NULL, 'Klarna - Dev', 'Klarna', 'Denmark', NULL,NULL),
+(NULL, 'Klarna Pay Later', 'Klarna', 'Denmark', NULL,NULL),
+(NULL, 'klarna - UseePay', 'Klarna', 'Denmark', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Later', 'Klarna', 'Denmark', NULL,NULL),
+(NULL, 'PAY. Payment Methods Klarna', 'Klarna', 'Denmark', NULL,NULL),
+(NULL, 'Klarna Payments', 'Klarna', 'Denmark', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Now', 'Klarna', 'Denmark', NULL,NULL),
+(NULL, 'KlarnaTestSaje-PI4027', 'Klarna', 'Denmark', NULL,NULL),
+(NULL, 'awx-klarna-prod', 'Klarna', 'Denmark', NULL,NULL),
+
+(NULL, 'Klarna - Dev', 'Klarna', 'Norway', NULL,NULL),
+(NULL, 'Klarna Pay Later', 'Klarna', 'Norway', NULL,NULL),
+(NULL, 'klarna - UseePay', 'Klarna', 'Norway', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Later', 'Klarna', 'Norway', NULL,NULL),
+(NULL, 'PAY. Payment Methods Klarna', 'Klarna', 'Norway', NULL,NULL),
+(NULL, 'Klarna Payments', 'Klarna', 'Norway', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Now', 'Klarna', 'Norway', NULL,NULL),
+(NULL, 'KlarnaTestSaje-PI4027', 'Klarna', 'Norway', NULL,NULL),
+(NULL, 'awx-klarna-prod', 'Klarna', 'Norway', NULL,NULL),
+
+(NULL, 'Klarna - Dev', 'Klarna', 'Italy', NULL,NULL),
+(NULL, 'Klarna Pay Later', 'Klarna', 'Italy', NULL,NULL),
+(NULL, 'klarna - UseePay', 'Klarna', 'Italy', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Later', 'Klarna', 'Italy', NULL,NULL),
+(NULL, 'PAY. Payment Methods Klarna', 'Klarna', 'Italy', NULL,NULL),
+(NULL, 'Klarna Payments', 'Klarna', 'Italy', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Now', 'Klarna', 'Italy', NULL,NULL),
+(NULL, 'KlarnaTestSaje-PI4027', 'Klarna', 'Italy', NULL,NULL),
+(NULL, 'awx-klarna-prod', 'Klarna', 'Italy', NULL,NULL),
+
+(NULL, 'Klarna - Dev', 'Klarna', 'Spain', NULL,NULL),
+(NULL, 'Klarna Pay Later', 'Klarna', 'Spain', NULL,NULL),
+(NULL, 'klarna - UseePay', 'Klarna', 'Spain', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Later', 'Klarna', 'Spain', NULL,NULL),
+(NULL, 'PAY. Payment Methods Klarna', 'Klarna', 'Spain', NULL,NULL),
+(NULL, 'Klarna Payments', 'Klarna', 'Spain', NULL,NULL),
+(NULL, 'Mollie - Klarna Pay Now', 'Klarna', 'Spain', NULL,NULL),
+(NULL, 'KlarnaTestSaje-PI4027', 'Klarna', 'Spain', NULL,NULL),
+(NULL, 'awx-klarna-prod', 'Klarna', 'Spain', NULL,NULL),
+
+(NULL, 'Swish', 'Swish', 'Sweden', NULL,NULL),
+(NULL, 'swish-test-tobbe-1', 'Swish', 'Sweden', NULL,NULL),
+(NULL, 'Reepay Swish', 'Swish', 'Sweden', NULL,NULL),
+(NULL, 'AltaPay - Swish', 'Swish', 'Sweden', NULL,NULL),
+(NULL, 'Swish Payment Gateway', 'Swish', 'Sweden', NULL,NULL),
+(NULL, 'w | Pay with Swish', 'Swish', 'Sweden', NULL,NULL),
+
+
+(NULL, 'Planet - Twint', 'Twint', 'Switzerland', NULL,NULL),
+(NULL, 'PostFinance Twint', 'Twint', 'Switzerland', NULL,NULL),
+(NULL, 'wallee Twint', 'Twint', 'Switzerland', NULL,NULL),
+(NULL, 'TWINT', 'Twint', 'Switzerland', NULL,NULL),
+(NULL, '[STAGING] TWINT', 'Twint', 'Switzerland', NULL,NULL),
+(NULL, '[DEV] TWINT P', 'Twint', 'Switzerland', NULL,NULL),
+(NULL, 'TWINT (via Datatrans)', 'Twint', 'Switzerland', NULL,NULL),
+(NULL, '[STAGING] TWINT (via DT)', 'Twint', 'Switzerland', NULL,NULL),
+(NULL, 'Worldline - Twint', 'Twint', 'Switzerland', NULL,NULL),
+
+
+(NULL, 'Pay. Payment Methods Blik', 'Blik', NULL, NULL,'Rest of EMEA'), --Original : (NULL, 'Pay. Payment Methods Blik', 'Blik', NULL, 'EMEA',NULL),
+(NULL, 'Przelew24 / Blik', 'Blik', NULL, NULL,'Rest of EMEA'),
+(NULL, 'BLIK-PingPongCheckout', 'Blik', NULL, NULL,'Rest of EMEA'),
+(NULL, 'Blik - Oceanpayment', 'Blik', NULL, NULL,'Rest of EMEA'),
+(NULL, 'CM Payments / BLIK', 'Blik', NULL, NULL,'Rest of EMEA'),
+(NULL, 'KOMOJU - Blik', 'Blik', NULL, NULL,'Rest of EMEA'),
+
+(NULL, 'Pay. Payment Methods Blik', 'Blik', 'Poland', NULL,NULL), --Original : (NULL, 'Pay. Payment Methods Blik', 'Blik', NULL, 'EMEA',NULL),
+(NULL, 'Przelew24 / Blik', 'Blik', 'Poland', NULL,NULL),
+(NULL, 'BLIK-PingPongCheckout', 'Blik', 'Poland', NULL,NULL),
+(NULL, 'Blik - Oceanpayment', 'Blik', 'Poland', NULL,NULL),
+(NULL, 'CM Payments / BLIK', 'Blik', 'Poland', NULL,NULL),
+(NULL, 'KOMOJU - Blik', 'Blik', 'Poland', NULL,NULL),
+
+(NULL, 'Vipps 2.0 testing/staging', 'Vipps', 'Norway', NULL,NULL),
+(NULL, 'Vipps via Quickpay', 'Vipps', 'Norway', NULL,NULL),
+(NULL, 'Nets Easy Vipps', 'Vipps', 'Norway', NULL,NULL),
+(NULL, 'Vipps Checkout', 'Vipps', 'Norway', NULL,NULL),
+(NULL, 'AltaPay - Vipps', 'Vipps', 'Norway', NULL,NULL),
+(NULL, 'Reepay Vipps', 'Vipps', 'Norway', NULL,NULL),
+(NULL, 'Vipps 2.0', 'Vipps', 'Norway', NULL,NULL),
+(NULL, 'quickpay-vipps-staging', 'Vipps', 'Norway', NULL,NULL),
+
+
+(NULL, 'Mobilepay via Quickpay', 'Mobilepay', 'Denmark', NULL,NULL),
+(NULL, 'Svea / MobilePay', 'Mobilepay', 'Denmark', NULL,NULL),
+(NULL, 'MobilePay Online', 'Mobilepay', 'Denmark', NULL,NULL),
+(NULL, 'pensopay mobilepay', 'Mobilepay', 'Denmark', NULL,NULL),
+(NULL, 'AltaPay - MobilePay', 'Mobilepay', 'Denmark', NULL,NULL),
+(NULL, 'pensopay MobilePay DEV', 'Mobilepay', 'Denmark', NULL,NULL),
+(NULL, 'Paytrail / MobilePay', 'Mobilepay', 'Denmark', NULL,NULL),
+
+(NULL, 'Mobilepay via Quickpay', 'Mobilepay', 'Finland', NULL,NULL),
+(NULL, 'Svea / MobilePay', 'Mobilepay', 'Finland', NULL,NULL),
+(NULL, 'MobilePay Online', 'Mobilepay', 'Finland', NULL,NULL),
+(NULL, 'pensopay mobilepay', 'Mobilepay', 'Finland', NULL,NULL),
+(NULL, 'AltaPay - MobilePay', 'Mobilepay', 'Finland', NULL,NULL),
+(NULL, 'pensopay MobilePay DEV', 'Mobilepay', 'Finland', NULL,NULL),
+(NULL, 'Paytrail / MobilePay', 'Mobilepay', 'Finland', NULL,NULL),
+
+
+(NULL, 'Alipay Card for test', 'Alipay', 'China', NULL,NULL),
+(NULL, 'Alipay', 'Alipay', 'China', NULL,NULL),
+(NULL, 'NihaoPay App For Alipay', 'Alipay', 'China', NULL,NULL),
+(NULL, 'w | Pay with AliPay', 'Alipay', 'China', NULL,NULL),
+(NULL, 'KOMOJU - Alipay', 'Alipay', 'China', NULL,NULL),
+(NULL, 'KOMOJU - AlipayHK', 'Alipay', 'China', NULL,NULL),
+(NULL, 'Alipay HK - Oceanpayment', 'Alipay', 'China', NULL,NULL),
+(NULL, 'Alipay国際決済-SBペイメント', 'Alipay', 'China', NULL,NULL),
+(NULL, 'Alipay DEV Test App', 'Alipay', 'China', NULL,NULL),
+(NULL, 'AlipayHK - Test', 'Alipay', 'China', NULL,NULL),
+
+(NULL, 'Alipay Card for test', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'Alipay', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'NihaoPay App For Alipay', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'w | Pay with AliPay', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'KOMOJU - Alipay', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'KOMOJU - AlipayHK', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'Alipay HK - Oceanpayment', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'Alipay国際決済-SBペイメント', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'Alipay DEV Test App', 'Alipay', NULL, NULL,'Rest of APAC'),
+(NULL, 'AlipayHK - Test', 'Alipay', NULL, NULL,'Rest of APAC'),
+
+(NULL, 'konbini-onsite-poc', 'Konbini', 'Japan', NULL,NULL),
+(NULL, 'KOMOJU - コンビニ決済', 'Konbini', 'Japan', NULL,NULL),
+(NULL, 'Paymentwall - Konbini', 'Konbini', 'Japan', NULL,NULL)
+
+;
+
+SELECT 
+pmts.shop_country_name as Country
+--,case when pmts.shop_fpa_region_5_code in ('Canada','United States') then 'NA' else pmts.shop_fpa_region_5_code END as Region
+,CASE WHEN lpm.regionD IS NULL THEN
+        CASE
+            WHEN pmts.shop_fpa_region_5_code IN ('Canada', 'United States') THEN 'NA'
+            ELSE pmts.shop_fpa_region_5_code
+        END
+    ELSE pmts.shop_fpa_region_14_code END AS Region
+,case when lpm.region is null then lpm.regionD else lpm.region end as RegionSubRegion
+,pmts.payment_gateway_integration_name as Gateway_Name
+,pmts.is_shopify_payments_gateway_enabled as SP_Enabled
+,pmts.is_monetized as Monetized
+--,pmts.shop_cohort_month as Cohort
+,pmts.gmv_funnel_category as GMV_Funnel
+,(date_trunc(pmts.reported_at, month)) as Report_Date
+,pmts.payment_method_type
+--,case when ccb.credit_card_bin = '440393' then 'CashApp' END AS LPM
+,lpm.Gateway_Clean as LPM
+,IF(pmts.shop_plan_name = 'shopify_plus','Plus','Standard') AS merchant_type
+,sum(pmts.gmv_usd) as Total_GMV
+,sum(pmts.gpv_usd) as Total_GPV
+,sum(pmts.processing_revenue_usd) as Processing_Revenue
+,sum(extended_authorization_fee_amount_usd) as Extended_Authorization_Fee
+,sum(chargeback_revenue_usd) as Chargback_Revenue
+,sum(interchange_cost_usd) as Interchange_Cost
+,sum(discount_cost_usd) as Discount_Cost
+,sum(card_scheme_cost_usd) as Card_Scheme_Cost
+,sum(network_cost_usd) as Network_Cost
+,sum(blended_cost_usd) as Blended_Cost
+,sum(volume_cost_usd) as Volume_Cost
+,sum(fx_fee_cost_usd) as FX_Fee_Cost
+,sum(per_sale_cost_usd) as Per_Sale_Cost
+,sum(apm_cost_usd) as APM_LPM_Cost
+,sum(three_d_secure_cost_usd) as ThreeD_Secure_Cost
+,sum(processing_cost_usd) as Processing_Cost
+,sum(dispute_cost_usd) as Dispute_Cost
+,sum(dispute_interchange_fee_cost_usd) as Dispute_Interchange_Fee_Cost
+,sum(total_revenue_usd) as Total_Revenue
+,sum(total_cost_usd) as Total_Cost
+
+FROM `shopify-dw.marts.payments_gmv_revenue_costs_summary` as pmts
+left join `intermediate.credit_card_bins` as ccb on ccb.credit_card_bin = pmts.credit_card_bin
+JOIN lpm_lkp AS lpm ON (lpm.Bin_Number = pmts.credit_card_bin OR lpm.Bin_Number IS NULL)
+    AND (lpm.Gateway = pmts.payment_gateway_integration_name OR lpm.Gateway IS NULL)
+    AND (lpm.Country = pmts.shop_country_name OR lpm.Country IS NULL)
+    AND (lpm.Region = pmts.shop_fpa_region_5_code OR lpm.Region IS NULL)
+    AND (lpm.RegionD = pmts.shop_fpa_region_14_code OR lpm.RegionD IS NULL)
+
+where 1=1
+--and ccb.credit_card_bin = '440393'
+--and DATE(pmts.reported_at) BETWEEN DATE_SUB(CURRENT_DATE(), INTERVAL 12 MONTH) AND CURRENT_DATE()
+and DATE(pmts.reported_at) BETWEEN '2022-01-01' and '2023-10-31'
+--AND (lpm.Bin_Number IS NOT NULL OR lpm.Gateway IS NOT NULL OR lpm.Country IS NOT NULL OR lpm.Region IS NOT NULL)
+AND (lpm.Bin_Number IS NOT NULL OR lpm.Gateway IS NOT NULL OR lpm.Country IS NOT NULL OR lpm.Region IS NOT NULL OR lpm.RegionD IS NOT NULL)
+--and pmts.gmv_funnel_category IN ('Monetized','Waived')
+
+group by 
+1
+,2
+,3
+,4
+,5
+,6
+,7
+,8
+,9
+,10
+,11
+
+--Ultimately filter this whole thing by SP country***************
+--No BLIK in gateways see if this is CC and associated BIN
+--Research ZIP and Afterpay
+--Swish has a test "Tobbe"?
+--Twint no data
+
+
+--SELECT 
+--payment_gateway_integration_name
+
+-- FROM `shopify-dw.marts.payments_gmv_revenue_costs_summary`
+
+--WHERE 
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%mobilepay%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%klarna%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%vip%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%blik%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%afterpay%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%zip%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%clear%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%swish%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%ali%')
+--LOWER(payment_gateway_integration_name) LIKE LOWER('%twint%')
+
+-- group by payment_gateway_integration_name
+
+ --limit 1000
+
+
